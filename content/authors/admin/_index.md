@@ -24,7 +24,7 @@ role:博士研究生 / 多式联运碳减排研究者
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: 河南工业大学
+  - name: 河南工业大学 粮食和物资储备学院
     url: https://www.haut.edu.cn/
 
 # Social network links
@@ -36,142 +36,107 @@ profiles:
   - icon: brands/github
     url: https://github.com/guoxiao427
 
-
+# 研究兴趣
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 多式联运网络优化
+  - 碳达峰路径建模
+  - 碳排放政策情绪分析
+  - 智能物流与大数据决策支持
 
+# 教育背景
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - area: 管理科学与工程 博士
+    institution: 上海海事大学
+    date_start: 2021-09-01
+    date_end: 2025-06-30
+    
+  - area: 航天及民航工程 访学博士
+    institution: 香港理工大学
+    date_start: 2024-04-01
+    date_end: 2024-10-31
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: 管理学硕士
+    institution: 郑州大学
+    date_start: 2014-09-01
+    date_end: 2017-07-01
+publications:
+  - title: Carbon peak simulation and peak pathway analysis for hub-and-spoke container intermodal network
+    authors: Guo X Y, He J L, Yu H, et al.
+    journal: Transportation Research Part E
+    date: 2023-08-01
+    url: https://doi.org/xxx
     summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      提出了基于枢纽-辐射结构的集装箱多式联运网络碳达峰模拟与路径评估方法。发表在 SCI 一区，ABS 三星期刊，IF: 8.3。
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+  - title: Carbon reduction and peak pathway evaluation from the perspective of policy sentiment
+    authors: Guo X Y, He J L, Xu G Y, Yu H
+    journal: Transportation Research Part A
+    date: 2025-01-01
+    url: https://doi.org/xxx
+    summary: |
+      构建了基于政策情绪的多式联运网络碳减排路径优化框架。SCI 一区，IF: 6.3。
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - title: Modeling carbon emission estimation for hinterland-based container intermodal network
+    authors: Guo X Y, He J L, et al.
+    journal: Journal of Cleaner Production
+    date: 2022-06-01
+    url: https://doi.org/xxx
+    summary: |
+      提出区域多式联运网络的碳排放核算模型。SCI 一区，IF: 9.7。
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: “双碳”目标导向下我国绿色航运物流发展现状与趋势
+    authors: 黄有方, 魏明晖, 王煜, 郭晓燕, 黄明中
+    journal: 大连海事大学学报
+    date: 2023-01-01
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      被知网评为高被引/高PCSI论文。
+
+  - title: 考虑多目标的中欧集装箱多式联运路径选择
+    authors: 李玉民, 郭晓燕, 杨露
+    journal: 铁道科学与工程学报
+    date: 2017-10-01
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      研究多目标路径优化问题。CSCD 收录，中国高质量科技期刊 T1。
+
+projects:
+  - title: 国家自然科学基金项目
+    role: 项目参与人
+    institution: 上海海事大学
+    date_start: 2021-09-01
+    date_end: 2024-12-31
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      课题名称：绿色运营背景下集装箱码头资源调度时空优化研究。研究集装箱码头碳排机制与绿色调度策略。
+
+  - title: 上海市软科学研究项目
+    role: 项目骨干
+    date_start: 2022-01-01
+    date_end: 2023-12-31
+    summary: |
+      项目名称：基于大数据的多式联运枢纽高质量发展路径优化，涉及评价体系构建与关键影响因子识别。
+
+  - title: 上海海事大学拔尖创新人才项目
+    role: 主持人
+    date_start: 2023-11-01
+    date_end: 2025-05-01
+    summary: |
+      研究集装箱多式联运网络碳减排路径优化。
+
+  - title: 多式联运碳排放核算平台建设（横向项目）
+    role: 核心负责人
+    summary: |
+      主导系统架构设计、计算逻辑与数据采集模块开发，服务于长三角多个枢纽港与铁路园区的碳排放测算与优化。
+
+  - title: 铁路建设项目碳减排效益工具开发
+    role: 项目开发者
+    summary: |
+      应用于江山、浦江、杭州北等铁路货场的碳排放评估，支持低碳运输规划制定。
+
+
+
 ---
 
-## About Me
+## 关于我
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+郭晓燕，管理科学与工程专业博士研究生，毕业于上海海事大学物流科学与工程学院，师从何军良教授，主要研究方向为多式联运网络碳排放测算、碳达峰路径预测与减排优化。在读期间曾赴香港理工大学访学，参与海陆空协同多式联运网络碳减排路径研究，结合大湾区航空物流特征与碳政策趋势，构建面向区域协同的低碳运输网络优化模型。我致力于推动“智能+绿色”物流系统构建，聚焦多源数据驱动的碳排放建模、政策情绪感知与低碳运输决策优化，在 Transportation Research Part A/E、Journal of Cleaner Production 等国际期刊发表多篇论文。其研究成果已成功转化为多式联运碳排放核算与减排评估平台，服务于长三角区域港口与铁路枢纽的绿色发展项目。
+
+
